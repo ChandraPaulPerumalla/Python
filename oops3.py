@@ -10,7 +10,7 @@ def purchase_mobile(price,brand):
         
     print("The total price of mobile is " +str(total_price))
     
-def purchase_shoe(price,material):
+def purchase_shoe(price, material):
     global total_shoe_price
     if material == "leather":
         tax = 5
